@@ -1,7 +1,6 @@
 [flake8]
-
-excludes =
-    migrations
+exclude =
+    migrations,
     __pycache__,
     manage.py,
-    ./app/settings.py
+    settings.py
